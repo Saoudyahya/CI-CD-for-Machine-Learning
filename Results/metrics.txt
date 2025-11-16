@@ -1,0 +1,9 @@
+Model Performance Metrics
+==================================================
+RMSE (Root Mean Squared Error): $822,736.37
+MAE (Mean Absolute Error): $186,120.58
+R² Score: 0.0556
+
+Interpretation:
+- On average, predictions are off by $186,120.58
+- The model explains 5.56% of the variance in house prices
