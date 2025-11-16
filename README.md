@@ -190,15 +190,6 @@ The most important features for price prediction:
 - **Training**: 70% (15,129 samples)
 - **Testing**: 30% (6,484 samples)
 
-## 📚 Next Steps
-
-- [ ] Add hyperparameter tuning
-- [ ] Implement feature engineering
-- [ ] Add XGBoost/LightGBM models
-- [ ] Create model comparison dashboard
-- [ ] Add data drift monitoring
-- [ ] Implement A/B testing
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -211,17 +202,6 @@ The most important features for price prediction:
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
-
-- Dataset: [King County House Sales](https://www.kaggle.com/datasets/shree1992/housedata)
-- MLOps Tools: Iterative CML
-- Deployment: Hugging Face Spaces
-
-## 📧 Contact
-
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
-
-Project Link: [https://github.com/YOUR_USERNAME/house-price-ml](https://github.com/YOUR_USERNAME/house-price-ml)
 
 ---
 
