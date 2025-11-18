@@ -1,7 +1,7 @@
 # 🏠 King County House Price Prediction with CI/CD
 
-[![CI](https://github.com/YOUR_USERNAME/house-price-ml/workflows/Continuous%20Integration/badge.svg)](https://github.com/YOUR_USERNAME/house-price-ml/actions)
-[![CD](https://github.com/YOUR_USERNAME/house-price-ml/workflows/Continuous%20Deployment/badge.svg)](https://github.com/YOUR_USERNAME/house-price-ml/actions)
+[![CI](https://github.com/YOUR_USERNAME/house-price-ml/workflows/Continuous%20Integration/badge.svg)](https://github.com/Saoudyahya/house-price-ml/actions)
+[![CD](https://github.com/YOUR_USERNAME/house-price-ml/workflows/Continuous%20Deployment/badge.svg)](https://github.com/Saoudyahya/house-price-ml/actions)
 
 An end-to-end machine learning project for predicting house prices in King County, Washington with automated CI/CD pipelines using GitHub Actions.
 
