@@ -1,14 +1,19 @@
 name: Continuous Deployment
+
 on:
   workflow_run:
-    workflows: ["Continuous Integration"]
+    workflows: ["Continuous Deployment"]
     types:
       - completed
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -16,6 +21,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+
+      - name: Install Dependencies
+        run: make install
 
       - name: Deploy to Hugging Face
         env:
