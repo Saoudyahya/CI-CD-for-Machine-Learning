@@ -90,12 +90,6 @@ Triggered after successful CI:
 1. ✅ Deploy to Hugging Face Spaces
 2. ✅ Make the app publicly accessible
 
-## 📈 Model Performance
-
-The Random Forest Regressor achieves:
-- **R² Score**: ~0.85 (explains 85% of variance)
-- **RMSE**: ~$130,000
-- **MAE**: ~$80,000
 
 Performance metrics are automatically updated in `Results/metrics.txt` after each training run.
 
