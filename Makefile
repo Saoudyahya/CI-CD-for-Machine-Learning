@@ -25,7 +25,7 @@ update-branch:
 
 deploy:
 	pip install huggingface-hub
-	python -c "from huggingface_hub import HfApi; HfApi().upload_folder(folder_path='App', path_in_repo='.', repo_id='yahyasd56/house-price-predictoyahyasd56/house-price-predicto', repo_type='space', token='$(HF)')"
+	python -c "from huggingface_hub import HfApi; HfApi().upload_folder(folder_path='App', path_in_repo='.', repo_id='yahyasd56/house-price-predicto', repo_type='space', token='$(HF)')"
 
 clean:
 	rm -rf __pycache__ .pytest_cache
